@@ -1,14 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <manifest>
-  <remote name="jtyr-github" fetch="https://github.com/jtyr" />
-
-  <default remote="jtyr-github" revision="master" sync-j="4" />
-
-  <project name="ansible-test_playbook" path="." revision="refs/tags/t1" />
-  <project name="ansible-test_role1" path="roles/role1" revision="refs/tags/t99" />
-  <project name="ansible-test_role2" path="roles/role2" revision="refs/tags/t61" />
+  <remote name="jtyr-github" fetch="https://github.com/jtyr"/>
+  <default remote="jtyr-github" revision="master" sync-j="4"/>
+  <project name="ansible-test_playbook" path="." revision="refs/tags/t1"/>
+  <project name="ansible-test_role1" path="roles/role1" revision="refs/tags/t99"/>
+  <project name="ansible-test_role2" path="roles/role2" revision="refs/tags/t60"/>
   <project name="ansible-yaml_inventory" path="tools/yaml_inventory" groups="base">
-    <linkfile src="yaml_inventory.py" dest="hosts" />
+    <linkfile src="yaml_inventory.py" dest="hosts"/>
   </project>
 </manifest>
