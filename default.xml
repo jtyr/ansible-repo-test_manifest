@@ -8,4 +8,7 @@
   <project name="ansible-test_playbook" path="." revision="refs/tags/t1" />
   <project name="ansible-test_role1" path="roles/role1" revision="refs/tags/t99" />
   <project name="ansible-test_role2" path="roles/role2" revision="refs/tags/t61" />
+  <project name="ansible-yaml_inventory" path="tools/yaml_inventory" groups="base">
+    <linkfile src="yaml_inventory.py" dest="hosts" />
+  </project>
 </manifest>
