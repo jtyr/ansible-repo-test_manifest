@@ -2,7 +2,7 @@
 <manifest>
   <remote name="jtyr-github" fetch="https://github.com/jtyr"/>
   <default remote="jtyr-github" revision="master" sync-j="4"/>
-  <project name="ansible-test_playbook" path="." revision="refs/tags/t1"/>
+  <project name="ansible-test_playbook" path="." revision="refs/tags/t2"/>
   <project name="ansible-test_role1" path="roles/role1" revision="refs/tags/t99"/>
   <project name="ansible-test_role2" path="roles/role2" revision="refs/tags/t61"/>
   <project name="ansible-yaml_inventory" path="tools/yaml_inventory" groups="base">
